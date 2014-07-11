@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">hello world</string>
-    <string name="hello_world"> Merhaba </string>
+    <string name="hello_world"> MERHABA </string>
     <string name="butonum"> Buton çalışıyor  </string>
-    <string name="welcome">hoşgeldiniz </string>
+    <string name="welcome">HOŞGELDİNİZ</string>
 </resources>

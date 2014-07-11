@@ -11,7 +11,6 @@ import android.view.View.OnClickListener;
 import android.widget.TextView;
 
 
-
 public class MyActivity extends Activity {
     /**
      * Called when the activity is first created.
@@ -21,32 +20,36 @@ public class MyActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.screen);
 
 
+
+
+
+
+
+
+
+        Thread screen = new Thread() {
+            public void run() {
+                try {
+                    sleep(3000);
+                    finish();
+                } catch (Exception e) {
+
+                }
+                finally {
+                    Intent i = new Intent(getBaseContext(), screen.class);
+                    startActivity(i);
+                }
+            }
+        };
+        screen.start();
     }
 
 
-    public void yazdir(View view) {
 
-        final TextView cikti = (TextView) findViewById(R.id.world);
-        cikti.setText(getString(R.string.butonum));
     }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
