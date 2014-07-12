@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="helloworld">hello world </string>
+    <string name="write">Button is working</string>
+    <string name="welcome">welcome</string>
+    <string name="text">change</string>
+    <string name="app_name">screen</string>
+
+</resources>
