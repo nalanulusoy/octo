@@ -22,7 +22,7 @@ public class welcome extends Activity {
     public void yazdir(View view) {
 
         final TextView cikti = (TextView) findViewById(R.id.text);
-        cikti.setText(getString(R.string.write));
+        cikti.setText(getString(R.string.button));
     }
 
 }

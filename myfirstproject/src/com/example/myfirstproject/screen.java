@@ -1,3 +1,6 @@
+
+
+
 package com.example.myfirstproject;
 
 import android.content.pm.ActivityInfo;
@@ -31,6 +34,7 @@ public class screen extends Activity {
                 } catch (Exception e) {
 
                 }
+
 
             }
         };

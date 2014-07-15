@@ -1,3 +1,4 @@
+
 package com.example.myfirstproject;
 
 
@@ -15,7 +16,7 @@ import android.widget.Toast;
  */
 public class menu extends ListActivity {
 
-   ;
+    ;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,7 +24,7 @@ public class menu extends ListActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         String[] values = new String[]{
                 "OPEN",
-                "OPERATION"
+                "OPERATION","MUSIC"
         };
         setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, values));
     }
@@ -40,10 +41,15 @@ public class menu extends ListActivity {
                 intent = new Intent(this, welcome.class);
                 startActivity(intent);
                 break;
+            case 2:
+                intent = new Intent(this, music.class);
+                startActivity(intent);
+                break;
+
             default:
                 break;
         }
     }
 
 
-    }
+}

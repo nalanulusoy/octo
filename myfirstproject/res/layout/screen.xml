@@ -10,7 +10,7 @@
             android:layout_height="wrap_content"
 
             android:text="@string/welcome"
-            android:id="@string/app_name"
+            android:id="@id/text"
             />
 
 

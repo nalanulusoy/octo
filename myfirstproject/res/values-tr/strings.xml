@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="helloworld">merhaba dünya</string>
-    <string name="button">buton</string>
-    <string name="write">Buton çalışıyor</string>
+    <string name="button">Buton çalışıyor</string>
     <string name="welcome">Hoşgeldiniz</string>
-    <string name="text">change</string>
+    <string name="app_name">APP</string>
+    <string name="start">Music Start</string>
+    <string name="stop"> Music Stop</string>
 
 
 </resources>
